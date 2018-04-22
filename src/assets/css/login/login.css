@@ -1,0 +1,57 @@
+.login-register {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    position: fixed;
+}
+.bg-box,.login-box-info{
+    float: left;
+}
+.bg-box{
+    width: 55%;
+    height: 100%;
+    border-right: 1px dotted #dddddd;
+    position: relative;
+}
+.bg-box-content{
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    font-size: 36px;
+    margin-top: -40px;
+    letter-spacing: 2px;
+}
+.login-box-info{
+    width: 45%;
+    height: 100%;
+    position:relative;
+}
+.card{
+    padding: 10px 15%;
+    margin: 0 auto;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    margin-top: -150px;
+}
+.login-box-info .form-control{
+    height: 45px;
+}
+.card .form-group:not(first-child){
+    margin-bottom: 20px;
+}
+.card .form-group:last-child{
+    margin-top: 40px;
+}
+#loginValidate{
+    margin-bottom: -20px;
+    font-size: 14px;
+}
